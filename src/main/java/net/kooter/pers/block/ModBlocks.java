@@ -53,6 +53,10 @@ public class ModBlocks {
                     .strength(6f).requiresCorrectToolForDrops()
                     .lightLevel(state -> state.getValue(ZirconLampBlock.LIT) ? 15 : 0)), CreativeModeTab.TAB_MISC);
 
+    public static final RegistryObject<Block> UNOBTANIUM  = registerBlock("unobtanium_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(6f).requiresCorrectToolForDrops()), CreativeModeTab.TAB_MISC);
+
 
     public static final RegistryObject<Block> BLUEBERRY_CROP = BLOCKS.register("blueberry_crop",
             () -> new BlueberreCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT)));

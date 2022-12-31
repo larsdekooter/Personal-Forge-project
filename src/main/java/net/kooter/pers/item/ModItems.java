@@ -31,6 +31,9 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)
                     .food(new FoodProperties.Builder().nutrition(2).saturationMod(2f).build())));
 
+    public static final RegistryObject<Item> UNOBTANIUM = ITEMS.register("unobtanium",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

@@ -4,6 +4,7 @@
   "item.pers.eight_ball": "Eight Ball",
   "item.pers.blueberry": "Blueberry",
   "item.pers.blueberry_seeds": "Blueberry Seeds",
+  "item.pers.unobtanium": "Unobtanium",
 
   "block.pers.zircon_block": "Block of Zircon",
   "block.pers.zircon_ore": "Zircon Ore",
@@ -11,6 +12,6 @@
   "block.pers.deepslate_zircon_ore": "Deepslate Zircon Ore",
   "block.pers.jumpy_block": "Jumpy Block",
   "block.pers.zircon_lamp": "Zircon Lamp",
-  "block.pers.blueberry_crop": "Blueberry Crop"
-
+  "block.pers.blueberry_crop": "Blueberry Crop",
+  "block.pers.unobtanium_block": "Unobtanium Block"
 }
