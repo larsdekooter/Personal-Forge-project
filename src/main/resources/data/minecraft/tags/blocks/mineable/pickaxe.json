@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "pers:zircon_ore",
+    "pers:zircon_block",
+    "pers:deepslate_zircon_ore"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "lit=true": { "model": "pers:block/zircon_lamp_on" },
+    "lit=false": { "model": "pers:block/zircon_lamp_off" }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "item.pers.zircon": "Zircon",
+  "item.pers.raw_zircon": "Raw Zircon",
+  "item.pers.eight_ball": "Eight Ball",
+
+  "block.pers.zircon_block": "Block of Zircon",
+  "block.pers.zircon_ore": "Zircon Ore",
+  "block.pers.netherrack_zircon_ore": "Netherrack Zircon Ore",
+  "block.pers.deepslate_zircon_ore": "Deepslate Zircon Ore",
+  "block.pers.jumpy_block": "Jumpy Block",
+  "block.pers.zircon_lamp": "Zircon Lamp"
+}
