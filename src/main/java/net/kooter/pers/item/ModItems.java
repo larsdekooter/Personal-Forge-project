@@ -23,6 +23,15 @@ public class ModItems {
     public static final RegistryObject<Item> EIGHT_BALL = ITEMS.register("eight_ball",
             () -> new EightBallItem(new Item.Properties().tab(CreativeModeTab.TAB_MISC).stacksTo(1)));
 
+    public static final RegistryObject<Item> BLUEBERRY_SEEDS = ITEMS.register("blueberry_seeds",
+            () -> new ItemNameBlockItem(ModBlocks.BLUEBERRY_CROP.get(),
+                    new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+
+    public static final RegistryObject<Item> BLUEBERRY = ITEMS.register("blueberry",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)
+                    .food(new FoodProperties.Builder().nutrition(2).saturationMod(2f).build())));
+
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
